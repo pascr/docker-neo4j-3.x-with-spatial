@@ -21,8 +21,7 @@ docker pull pascr/neo4j-3.x-with-spatial
 # Start Neo4j Container
 
 To run the Neo4j image inside a container after either building it or pulling it, run the following docker command.
-docker run -p 7474:7474 pascr/neo4j-3.x-with-spatial
 
 ```
-docker run pascr/neo4j-3.x-with-spatial
+docker run -p 7474:7474 pascr/neo4j-3.x-with-spatial
 ```
